@@ -1,0 +1,20 @@
+.costumer{
+    width: 100%;
+    height: 150vh;
+    background-color: $costumer_color;
+    position: relative;
+
+    .costumer_text{
+  
+        width: 100%;
+        
+        h4{
+            font-size: 13px;
+            color: $header-textcolor-2;
+        }
+        h2{
+            color: $header-textcolor-1;
+            font-weight: bold;
+        }
+    }
+}

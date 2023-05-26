@@ -1,0 +1,102 @@
+.header {
+    width: 100%;
+    height: 100vh;
+
+    .header_light-blue {
+        background-color: $header-color-1;
+        width: 50%;
+        height: 100vh;
+        position: relative;
+
+        .header_h3 {
+            position: absolute;
+            bottom: 50px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .d-flex {
+            position: absolute;
+            top: 100px;
+
+            h1 {
+                color: $header-textcolor-1;
+            }
+
+            .first-text {
+                font-weight: 200;
+
+            }
+
+            .next-text {
+                font-weight: bolder;
+                letter-spacing: 2px;
+            }
+
+            .header_h5 {
+                width: 55%;
+            }
+
+            h5 {
+                font-size: 17px;
+                color: $header-textcolor-2;
+                font-weight: 300;
+                line-height: 25px;
+            }
+        }
+
+        .btn {
+            margin-top: 10px;
+            width: 23%;
+            height: 50px;
+            border-radius: 20px;
+            font-size: 20px;
+            color: $btn-textcolor-1;
+            border: 1px solid white !important;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+            letter-spacing: 1px;
+        }
+    }
+
+    .header_light-green {
+        width: 50%;
+        height: 100vh;
+        position: relative;
+
+
+
+        .header_img {
+            background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_2.jpg);
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center ;
+
+        }
+
+        ul {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            background-color: transparent;
+        }
+
+        li a {
+            color: black;
+
+        }
+
+        .active {
+            color: white;
+        }
+    }
+
+
+}
